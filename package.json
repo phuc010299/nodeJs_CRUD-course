@@ -7,7 +7,8 @@
     "beautiful": "lint-staged",
     "start": "nodemon --inspect src/index.js",
     "watch": "sass --watch src/resources/scss/app.scss src/public/css/app.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -38,7 +39,7 @@
     "express-handlebars": "^6.0.6"
   },
   "devDependencies": {
-    "husky": "^4.2.5",
+    "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
     "morgan": "^1.10.0",
     "node-sass": "^7.0.3",
